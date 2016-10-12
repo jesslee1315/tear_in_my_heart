@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css');
+
+html{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  overflow: hidden;
+}
+body{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+}
+
+.hello_container{
+  position: relative;
+  z-index: -1;
+}
+
+.letters1{
+  position: fixed;
+  top: 25%;
+  left: 15%;
+}
+.letters2{
+  position: fixed;
+  top: 60%;
+  left: 7%;
+}
+
+.ㅇㄴ{
+  font-family: nanum brush script;
+  font-size: 200px;
+  letter-spacing: 30px;
+  color: #f1f1f1;
+}
+
+.hello {
+  /*font-family: Amatic SC;*/
+  font-family: nanum brush script;
+  font-size: 80px;
+  color: #f1f1f1;
+  letter-spacing: 25px;
+}
+
+.flashingColors1{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
+
+.flashingColors2{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 2;
+}
+.flashingColors3{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+}
+
+#just_face{
+  width: 65%;
+  height: 75%;
+  position: absolute;
+  z-index: 5;
+}
+
+#hat_face{
+  width: 75%;
+  height: 85%;
+  position: absolute;
+  z-index: 5;
+  right: -1%;
+}
+.sunglasses1{
+  width: 13%;
+  height: 8%;
+  position: absolute;
+  top: 41%;
+  left: 26%;
+  z-index: 6;
+}
+
+.sunglasses2{
+  width: 13%;
+  height: 8%;
+  position: absolute;
+  top: 44%;
+  left: 58%;
+  z-index: 6;
+}
+
+.lyricArt{
+  width: 25%;
+  height: 55%;
+}
+
+#heart1{
+  position: absolute;
+  z-index: 4;
+  top: 15%;
+  left: 3%;
+}
+
+#heart2{
+  position: absolute;
+  z-index: 4;
+  top: 30%;
+  right: 8%;
+}
+
+.speakers{
+  opacity: .7;
+  position: absolute;
+  z-index: 4;
+}
+
+.sm{
+  width: 150px;
+  height: 165px;
+}
+
+.med{
+  width: 230px;
+  height: 245px;
+}
+
+.l{
+  width: 280px;
+  height: 295px;
+}
+
+#med1{
+  top: 35%;
+  right: 52%
+}
+
+#l1{
+  top: 2%;
+  right: 6%
+}
+
+#sm2{
+  top: 65%;
+  right: 35%;
+}
+
+#med2{
+  top: 75%;
+  right: 72%
+}
+
+#l2{
+  top: 30%;
+  right: 83%
+}
+
+#sm3{
+  top: 10%;
+  right: 70%;
+}
+
+#sm4{
+  top: 2%;
+  right: 35%;
+}
+#sm5{
+  top: 75%;
+  right: 55%;
+}
+#sm6{
+  top: 50%;
+  right: 15%;
+}
+
+#med3{
+  top: 70%;
+  right: 3%;
+}
+
+#l3{
+  top: 30%;
+  right: 83%;
+}
+
+.fallingBox{
+  width: 9.98%;
+  height: 9.98%;
+  margin-bottom: 0;
+  position: relative  ;
+  opacity: 0;
+  z-index: 3;
+}

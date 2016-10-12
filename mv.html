@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tear In My Heart</title>
+    <!-- <link rel="stylesheet" href="/css/style.css" media="screen" title="no title"> -->
+    <link rel="stylesheet" href="/css/mv_style.css" media="screen" title="no title">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"> -->
+  </head>
+  <body>
+    <audio id="audio" controls>
+      <source src="audio/mv_tear_in_my_heart.mp3" type="audio/mp3">
+    </audio>
+
+  <div class="hello_container">
+    <div class="letters1">
+      <h1>
+        <span class="ㅇㄴ one">안.</span>
+        <span class="ㅇㄴ two">녕.</span>
+        <span class="ㅇㄴ three">하</span>
+        <span class="ㅇㄴ four">세</span>
+        <span class="ㅇㄴ five">요.</span>
+      </h1>
+    </div>
+    <div class="letters2">
+      <h1>
+        <span class="hello one">AHN.</span>
+        <span class="hello two">YOUNG.</span>
+        <span class="hello three">HA-</span>
+        <span class="hello four">SAE-</span>
+        <span class="hello five">YO.</span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="flashingColors1"></div>
+  <div class="flashingColors2"></div>
+
+<div class="flashingColors3"></div>
+
+<div class="sunglasses_container">
+
+    <img class="sunglasses sunglasses1" id="sunglasses1" src="images/sunglasses/sunglasses.png" alt="" />
+    <img class="sunglasses sunglasses2" id="sunglasses2" src="images/sunglasses/sunglasses.png" alt="" />
+    <img class="sunglasses sunglasses1" id="sunglasses1_yellow" src="images/sunglasses/sunglasses_yellow.png" alt="" />
+    <img class="sunglasses sunglasses2" id="sunglasses2_yellow" src="images/sunglasses/sunglasses_yellow.png" alt="" />
+    <img class="sunglasses sunglasses1" id="sunglasses1_blue" src="images/sunglasses/sunglasses_blue.png" alt="" />
+    <img class="sunglasses sunglasses2" id="sunglasses2_blue" src="images/sunglasses/sunglasses_blue.png" alt="" />
+    <img class="sunglasses sunglasses1" id="sunglasses1_pink" src="images/sunglasses/sunglasses_pink.png" alt="" />
+    <img class="sunglasses sunglasses2" id="sunglasses2_pink" src="images/sunglasses/sunglasses_pink.png" alt="" />
+    <img class="sunglasses sunglasses1" id="sunglasses1_green" src="images/sunglasses/sunglasses_green.png" alt="" />
+    <img class="sunglasses sunglasses2" id="sunglasses2_green" src="images/sunglasses/sunglasses_green.png" alt="" />
+    <img class="sunglasses sunglasses1" id="sunglasses1_red" src="images/sunglasses/sunglasses_red.png" alt="" />
+    <img class="sunglasses sunglasses2" id="sunglasses2_red" src="images/sunglasses/sunglasses_red.png" alt="" />
+    <img class="sunglasses sunglasses1" id="sunglasses1_darkBlue" src="images/sunglasses/sunglasses_darkBlue.png" alt="" />
+    <img class="sunglasses sunglasses2" id="sunglasses2_darkBlue" src="images/sunglasses/sunglasses_darkBlue.png" alt="" />
+    <img class="sunglasses sunglasses1" id="sunglasses1_orange" src="images/sunglasses/sunglasses_orange.png" alt="" />
+    <img class="sunglasses sunglasses2" id="sunglasses2_orange" src="images/sunglasses/sunglasses_orange.png" alt="" />
+    <img class="sunglasses sunglasses1" id="sunglasses1_darkGreen" src="images/sunglasses/sunglasses_darkGreen.png" alt="" />
+    <img class="sunglasses sunglasses2" id="sunglasses2_darkGreen" src="images/sunglasses/sunglasses_darkGreen.png" alt="" />
+</div>
+
+    <img class="face" id="just_face"src="images/just_face.png" alt="" />
+      <img class="face" id="hat_face"src="images/hat_face.png" alt="" />
+
+    <img class="lyricArt" id="heart1" src="images/heart1.png" alt="" />
+    <img class="lyricArt" id="heart2" src="images/heart2.png" alt="" />
+
+    <div class="speakers_container">
+      <img class="speakers boom sm" id="sm1" src="images/speakers/speaker_small1.png" alt="" />
+      <img class="speakers boom med" id="med1" src="images/speakers/speaker_medium1.png" alt="" />
+      <img class="speakers boom l" id="l1" src="images/speakers/speaker_large1.png" alt="" />
+      <img class="speakers boom sm" id="sm2" src="images/speakers/speaker_small2.png" alt="" />
+      <img class="speakers boom med" id="med2" src="images/speakers/speaker_medium2.png" alt="" />
+      <img class="speakers boom l" id="l2" src="images/speakers/speaker_large2.png" alt="" />
+      <img class="speakers boom sm" id="sm3" src="images/speakers/speaker_small3.png" alt="" />
+      <img class="speakers boom med" id="med3" src="images/speakers/speaker_medium3.png" alt="" />
+      <img class="speakers boom l" id="l3" src="images/speakers/speaker_large3.png" alt="" />
+      <img class="speakers boom sm" id="sm4" src="images/speakers/speaker_small4.png" alt="" />
+      <img class="speakers boom sm" id="sm5" src="images/speakers/speaker_small5.png" alt="" />
+      <img class="speakers boom sm" id="sm6" src="images/speakers/speaker_small6.png" alt="" />
+    </div>
+
+
+    <div id="display"></div>
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script> -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TimelineLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TimelineMax.min.js"></script>
+  <script src="js/mv_main.js" charset="utf-8"></script>
+</body>
+ </html>

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+body{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+#blue{
+  background: #7ACFE3;
+  width: 20vw;
+  height: 80vh;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+#red{
+  background:#FF471C;
+  width: 20vw;
+  height: 80vh;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+
+.preLogoContainer{
+  width: 80%;
+  height: 85%;
+  /*border: 4px pink solid;*/
+  position: absolute;
+  right: 10%;
+  top: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+#preLoaderLogo{
+  width: 80%;
+  height: 100%;
+}
+.title_container{
+    /*border: 2px solid white;*/
+    width: 100vw;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0
+}
+
+.song_title_container{
+    /*border: 2px solid white;*/
+    width: 100vw;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 5%;
+}
+
+.song_title{
+  font-family: Poiret One;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 10px;
+}
+
+.title{
+  font-family: Poiret One;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 10px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+  #preLoaderLogo{
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 25%
+  }
+  #blue{
+    background: #7ACFE3;
+    width: 20vw;
+    height: 60vh;
+    position: absolute;
+    left: 5%;
+    top: 18%;
+  }
+  #red{
+    background:#FF471C;
+    width: 20vw;
+    height: 60vh;
+    position: absolute;
+    right: 5%;
+    top: 18%;
+  }
+  .song_title{
+    font-family: Poiret One;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 10px;
+  }
+
+  .title{
+    font-family: Poiret One;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 10px;
+  }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  #preLoaderLogo{
+    width: 60%;
+    height: 20%;
+    position: absolute;
+    top: 35%
+  }
+  #blue{
+    background: #7ACFE3;
+    width: 20vw;
+    height: 60vh;
+    position: absolute;
+    left: 5%;
+    top: 18%;
+  }
+  #red{
+    background:#FF471C;
+    width: 20vw;
+    height: 60vh;
+    position: absolute;
+    right: 5%;
+    top: 18%;
+  }
+  .song_title{
+    font-family: Poiret One;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 10px;
+  }
+  .title{
+    font-family: Poiret One;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 10px;
+  }
+
+}
+
+/*.hello_container{
+  border: white 2px solid;
+  height: 40vh;
+  width: 100vw;
+}*/
